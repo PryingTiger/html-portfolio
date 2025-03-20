@@ -1,13 +1,13 @@
 .homepage{
     background-image: url(./assets/Late\ night\ photos/IMG_0002.JPG); 
-    background-size:104%; 
+    background-size:cover; 
     background-position:55% 2% ;
     background-repeat: no-repeat;
    
 }
 .moviepage{
     background-image: url(./assets/Late\ night\ photos/IMG_0003.JPG); 
-    background-size:104%; 
+    background-size:cover; 
     background-position:55% -1% ;
     background-repeat: no-repeat;
    
@@ -28,8 +28,9 @@ h1.movieheading{
     text-align: center;
 }
 p{
-    color: white;
+    color: rgb(238, 193, 46);
 }
 ol{
+    text-align: left;
     color:rgb(255, 255, 255);
 }
