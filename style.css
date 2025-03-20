@@ -1,31 +1,35 @@
-h1{
-    color: rgb(31, 165, 31);
+.homepage{
+    background-image: url(./assets/Late\ night\ photos/IMG_0002.JPG); 
+    background-size:104%; 
+    background-position:55% 2% ;
+    background-repeat: no-repeat;
+   
 }
-
-body{
-    background-color: dimgray;
+.moviepage{
+    background-image: url(./assets/Late\ night\ photos/IMG_0003.JPG); 
+    background-size:104%; 
+    background-position:55% -1% ;
+    background-repeat: no-repeat;
+   
 }
 h2{
-   color: red; 
+    color: rgb(241, 146, 21);
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h1.movieheading{
+    color: rgb(241, 226, 226);
 }
 .links{
-    color: gold;
+    color: rgb(255, 238, 0);
+    text-align: center;
 }
-
-button {
-    color: #090909;
-    padding: 0.7em 1.7em;
-    font-size: 18px;
-    border-radius: 0.5em;
-    background: #e8e8e8;
-    cursor: pointer;
-    border: 1px solid #e8e8e8;
-    transition: all 0.3s;
-    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
-  }
-  
-  button:active {
-    color: #666;
-    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
-  }
-  
+p{
+    color: white;
+}
+ol{
+    color:rgb(255, 255, 255);
+}
