@@ -3,6 +3,8 @@
     background-size:cover; 
     background-position:55% 2% ;
     background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
    
 }
 .moviepage{
@@ -10,6 +12,8 @@
     background-size:cover; 
     background-position:55% -1% ;
     background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
    
 }
 h2{
@@ -22,6 +26,10 @@ h1{
 }
 h1.movieheading{
     color: rgb(241, 226, 226);
+}
+ul{
+    color: rgb(255, 238, 0);
+    list-style: none;
 }
 .links{
     color: rgb(255, 238, 0);
