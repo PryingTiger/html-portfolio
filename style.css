@@ -1,44 +1,41 @@
+
 .homepage{
-    background-image: url(./assets/Late\ night\ photos/IMG_0002.JPG); 
-    background-size:cover; 
-    background-position:55% 2% ;
+    background-image: url(./assets/Latenightphotos/IMG_0005.JPG);
+    background-size: cover;
     background-repeat: no-repeat;
-    max-width: 100%;
-    height: auto;
-   
+    height: 100vh;
+    text-align: center;
 }
-.moviepage{
-    background-image: url(./assets/Late\ night\ photos/IMG_0003.JPG); 
-    background-size:cover; 
-    background-position:55% -1% ;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: auto;
-   
-}
-h2{
-    color: rgb(241, 146, 21);
-}
+ul li a {
+    color: #57B4BA;
+  }
+  
 h1{
-    color: rgb(255, 255, 255);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
+    margin-left: 35px;
+    color: #FE4F2D;
 }
-h1.movieheading{
-    color: rgb(241, 226, 226);
+.movieheading{
+    margin-right: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 }
-ul{
-    color: rgb(255, 238, 0);
-    list-style: none;
-}
-.links{
-    color: rgb(255, 238, 0);
-    text-align: center;
+footer p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px;
 }
 p{
-    color: rgb(238, 193, 46);
+    color: #015551;
 }
-ol{
-    text-align: left;
-    color:rgb(255, 255, 255);
+.moviepage{
+    background-color: #FDFBEE;
+    text-align: center;
+    color: #57B4BA;
+}
+.score{
+    color: #FE4F2D;
+}
+.description{
+    width: 700px;
+    margin-left: 600px;
 }
