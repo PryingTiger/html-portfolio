@@ -4,38 +4,57 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+}
+.firstpagecontent{
     text-align: center;
+}
+#indextitle{
+    margin-left: 3%;
 }
 ul li a {
     color: #57B4BA;
   }
   
 h1{
-    margin-left: 35px;
+    text-align: center;
     color: #FE4F2D;
 }
-.movieheading{
-    margin-right: 40px;
+#movieheading{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
+}
+.marriagestory p{
+    width: 50%;
+    margin-left: 25%;
+    text-align: justify;
+    color: #57B4BA;
+}
+.marriagestory{
+    text-align: center;
+}
+.poster{
+    width: 25%;
 }
 footer p{
     color: white;
     font-family: 'Courier New', Courier, monospace;
     margin-left: 30px;
-}
-p{
-    color: #015551;
-}
-.moviepage{
-    background-color: #FDFBEE;
     text-align: center;
-    color: #57B4BA;
 }
-.score{
-    color: #FE4F2D;
-}
-.description{
-    width: 700px;
-    margin-left: 600px;
+
+
+
+
+
+
+@media (max-width: 390px){
+    .homepage{
+        background-position: center;
+    }
+    .movieheading{
+        text-align: center;
+    }
+    .description{
+        text-align: center;
+    }
 }
