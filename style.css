@@ -42,11 +42,6 @@ footer p{
     text-align: center;
 }
 
-
-
-
-
-
 @media (max-width: 500px){
     .homepage{
         background-position: center;
@@ -56,5 +51,8 @@ footer p{
     }
     .description{
         text-align: center;
+    }
+    .poster{
+        width: 50%;
     }
 }
